@@ -13,6 +13,8 @@ app = FastAPI(title="Multi-App Backend")
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    # Add your deployed frontend URL here when live, e.g.:
+    # "https://your-frontend.onrender.com"
 ]
 app.add_middleware(
     CORSMiddleware,
