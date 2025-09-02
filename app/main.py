@@ -43,7 +43,7 @@ app.include_router(portfolio_router, prefix="/api/v1/portfolio", tags=["Portfoli
 
 @app.get("/")
 def root():
-    return {"message": "Backend is Running 🚀"}
+    return {"message": "Backend is Running 🚀 \n Sardaar Saab - Since1992"}
 
 @app.get("/healthz")
 def health_check():
